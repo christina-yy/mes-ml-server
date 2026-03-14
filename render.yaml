@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mes-ml-server
+    runtime: python
+    buildCommand: "pip install -r requirements.txt && python -m spacy download en_core_web_sm"
+    startCommand: "python ml_server.py"
+    envVars:
+      - key: DB_URL
+        sync: false
