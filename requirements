@@ -1,0 +1,9 @@
+flask
+scikit-learn
+pandas
+numpy
+pymysql
+sqlalchemy
+fuzzywuzzy
+python-Levenshtein
+spacy
